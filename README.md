@@ -1,6 +1,6 @@
 # WebDogBomb
 
-**recordar que antes de realizar un push en el repositorio hay que realizar un pull en tu repositorio local para tener actualizado la version del proyecto y no tener problema de versiones convinadas**
+***Recordar que antes de realizar un push en el repositorio hay que realizar un pull en tu repositorio local para tener actualizado la version del proyecto y no tener problema de versiones convinadas***
 
 Estes sera el primer repositorio donde realizaremos los cambios correspondientes en las distintas clases que se realizen. Teniendo en cuenta que el repositorio sera de tipo remoto, para que actualizemos el proyecto, periodo a periodo.
 
