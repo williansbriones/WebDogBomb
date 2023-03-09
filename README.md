@@ -26,5 +26,6 @@ Comando que utilizaremos en git:
 
 -git branch -r (ver todas las ramas que hay)
 
+git pull (Para traer la version actual de repositorio remoto a tu repositorio local)
 
 ![image](https://user-images.githubusercontent.com/107446673/224136379-24e78fc0-23c2-4d39-a395-440af26574e8.png)
