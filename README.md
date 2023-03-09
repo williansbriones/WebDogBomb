@@ -24,3 +24,6 @@ Comando que utilizaremos en git:
 -git branch (Ver rama en la que estas ubicado)
 
 -git branch -r (ver todas las ramas que hay)
+
+
+![image](https://user-images.githubusercontent.com/107446673/224136379-24e78fc0-23c2-4d39-a395-440af26574e8.png)
