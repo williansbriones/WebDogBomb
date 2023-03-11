@@ -10,11 +10,11 @@ Comando que utilizaremos en git:
 
 -git status (para ver como esta la actualizacion)
 
--git add . (Guardar los cambios)
+-git add . (Guardar los cambios en repositorio local)
 
--git commit -m "mensaje" (Darle un comentario al push)
+-git commit -m "mensaje" (Darle un comentario al push que se realizara)
 
--git push origin main (comando para realizar un cambio en el repositorio remoto)
+-git push origin main (comando para realizar un cambio en el repositorio remoto y guardar cambios)
 
 -git remote add origin "direccion del repositorio remorto" (para comunicar repositorios)
 
