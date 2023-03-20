@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background:linear-gradient(90deg,
+        #79828D,gray
+        ,#6b6e70,#a4a4a4);
+        background-size: 400% 400%;
+        position: relative;
+        animation: fondo 10s 
+        ease-in-out infinite;
+}
+
+h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    border:solid 4px white;
+    border-radius: 25px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    
+
+}
+div{  
+    border:solid 4px white;
+    width: 100px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes fondo{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+@keyframes mymove {
+    0% {top: 0;}
+    50% {top: 50%}
+    100% {top: 0;}
+    
+}

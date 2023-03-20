@@ -1,0 +1,48 @@
+
+*{
+    background-color: gray;
+
+}
+
+.myDiv{
+
+    text-align: right;
+}
+p{
+    font-size: 30px;
+}
+h1{
+    /*background-color: #3c3c3c;*/
+    background-color: #515151;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-variant-ligatures: additional-ligatures;
+    font-size: 90px;
+    text-align: center;
+    appearance: 50s;
+    
+}
+img{
+    border-radius: 5px;
+    width: 300px;
+}
+table{
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10%;
+}
+td{
+    padding-left: 50px;
+
+}
+
+
+/*img{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+p{
+    margin-right: 20%;
+    margin-left: 20%;
+}
