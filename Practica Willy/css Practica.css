@@ -9,15 +9,16 @@ body{
     height: 100vh;
     color: #fff;
     background:linear-gradient(90deg,
-        #79828D,gray
+        #1e1f20,rgb(45, 45, 45)
         ,#6b6e70,#a4a4a4);
-        background-size: 400% 400%;
-        position: relative;
-        animation: fondo 10s 
-        ease-in-out infinite;
+    background-size: 400% 400%;
+    position: relative;
+    animation: fondo 10s 
+    ease-in-out infinite;       
 }
 
 h1{
+    font-family:'titulo1';
     font-size: 4rem;
     letter-spacing: 2px;
     border:solid 4px white;
@@ -25,24 +26,83 @@ h1{
     text-align: center;
     margin-right: 20%;
     margin-left: 20%;
+}
+section{
+    border: solid 5px yellow;
+    display: block;
+    width: 100%;
+    margin-top: -50px;
     
+}
+p{
+    font-family:'parrafo';
+    padding: 70px;
+}
+.imagen{
+    width: 100px;
+    height: 150PX;
 
 }
-div{  
-    border:solid 4px white;
-    width: 100px;
-    position: relative;
-    animation: mymove 5s infinite;
+div{
+    border:solid 3px green;
+    display: inline-block;
 }
+.animacion{
+    position: relative;
+    animation: mymove 10s 
+    ease-in-out infinite; 
+
+}
+
+
+
 
 @keyframes fondo{
     0%{background-position: 0 50%;}
     50%{background-position: 100% 50%;}
     100%{background-position: 0 50%;}
 }
+@keyframes giros {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 @keyframes mymove {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
     0% {top: 0;}
-    50% {top: 50%}
+    50% {top: 200px}
     100% {top: 0;}
     
+}
+
+
+
+
+
+
+@font-face{
+    font-family: 'titulo1';
+    src: url(fuentes/titulo1.woff2) format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'titulos2';
+    src: url(fuentes/big_titulo.woff2) format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'parrafo';
+    src: url(fuentes/text_regulado.woff2) format('woff2');
+    font-style: normal;
+    font-weight: normal;
 }
