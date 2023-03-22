@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.gris{
+    background-color: rgb(58, 58, 58);
+    
+}
+
+.celeste{
+    background-color: rgb(10, 200, 200);}
+.amarillo{
+    background-color: rgb(207, 207, 10);
+}
+.naranja{
+    background-color: orange;
+}
+.rojo{
+    background-color: red;
+}
+div{
+    margin-left: 10%;
+    margin-right: 3%;
+    height:25%;
+}
+section{
+    
+    height:100vh;
+}
+.TextoPequeño{
+    position: absolute;
+    margin-left: 1%;
+    margin-right: 91%;
+    top: 5%;
+}
+p{
+    color: whitesmoke;
+    font-family: 'parrafo';
+}
+h1{
+    font-family: 'titulo1';
+    color: whitesmoke;
+}
+section p{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+section h1{
+    padding-left: 10%;
+}
+
+
+@font-face{
+    font-family: 'titulo1';
+    src: url(fuentes/titulo1.woff2) format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'titulos2';
+    src: url(fuentes/big_titulo.woff2) format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'parrafo';
+    src: url(fuentes/text_regulado.woff2) format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
