@@ -47,8 +47,11 @@ section p{
 }
 section h1{
     padding-left: 10%;
+    position: relative;
 }
-
+div h1{
+    padding-top: 2%;
+}
 
 @font-face{
     font-family: 'titulo1';
